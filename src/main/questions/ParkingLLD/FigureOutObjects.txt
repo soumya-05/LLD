@@ -1,0 +1,29 @@
+
+
+Building
+
+
+Floors
+- floorid
+- List<ParkingSlot>
+
+ParkingSlot
+-id
+-Vehicle
+
+ParkingStrategy
+
+
+
+
+Vehicle
+-number
+-VehicleType
+
+Entry
+-Building
+-Ticket
+createTicket(Vehicle);
+
+Exit
+-payment

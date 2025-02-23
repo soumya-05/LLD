@@ -1,0 +1,29 @@
+
+
+NoBroker.User
+-userId
+-password
+-notify(String)
+
+UserManager  (Singleton Object)
+-Map<String,NoBroker.User> Users
+-login() : NoBroker.User
+-register():NoBroker.User
+-notifyAllUser(Item)
+
+
+Item
+-itemId
+-itemName
+-description
+-startingPrice
+-auctionDuration : LocalDate
+
+ItemManager (Singleton Object)
+-Map<String,Item> items
+-placeBid(itemId,int price); it should be synchronized.
+
+
+AuctionAppDemo
+-
+

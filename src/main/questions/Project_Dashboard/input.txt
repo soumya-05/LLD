@@ -1,0 +1,9 @@
+BOARD CREATE work@tech
+BOARD 1work@tech name workat.tech
+BOARD 1work@tech privacy PRIVATE
+BOARD CREATE workat
+BOARD 1workat ADD_MEMBER user1
+BOARD 1workat ADD_MEMBER user2
+BOARD 1workat ADD_MEMBER user3
+BOARD 1workat REMOVE_MEMBER user2
+BOARD DELETE 1workat
