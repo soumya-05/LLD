@@ -1,0 +1,16 @@
+User 
+-userId: 12345
+-userName: "John Doe"
+-projectId
+-teamId: 101112
+
+Project
+-projectId: 67890
+-projectName: "Incident Management System"
+
+
+Teams
+-teamId: 101112
+-teamName: "Incident Response Team"
+
+
